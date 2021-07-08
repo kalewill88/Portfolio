@@ -1,0 +1,39 @@
+body {
+    background-color: #BAE6E6;
+    align-items: center;
+}
+
+/*Index Body*/
+
+.welcome {
+    font-size: 50pt;
+    text-align: center;
+    font-family: 'Allura', cursive;
+    position: relative;
+    
+}
+
+.webDd {
+    font-size: 28pt;
+    text-align: center;
+    font-family: 'Allura', cursive;
+    position: relative;
+    
+}
+
+
+.compImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border: 5px groove black;
+}
+
+
+
+

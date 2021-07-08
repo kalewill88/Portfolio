@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+h2 {
+    font-size: 50pt;
+    text-align: center;
+    font-family: 'Allura', cursive;
+    position: relative;
+}
+ 
+#contactPara {
+    text-align: center;
+    position: relative;
+} 
+
+.contactInfo {
+    font-size: 28pt;
+    text-align: center;
+    position: relative;
+    font-family: 'Allura', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-end;
+}
+
+#bullet{
+    display: flex;
+    margin-top:0px;
+}
+
+/*Message Box*/
+.messageContainer{
+    display: flex;
+    justify-content: flex-end;
+    
+} 
+
+
+h3 {
+    text-align: center;
+    position: relative;
+    margin-right: 0;
+}
+.column-contact {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    align-items: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    }
+}
